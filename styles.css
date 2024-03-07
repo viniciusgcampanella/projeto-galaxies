@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background: #121214;
+    padding: 72px 104px;
+    display: grid;
+    justify-content: center;
+ }
+ header h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 72px;
+    color: #02799d;
+ }
+ header p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #e1e1e6;
+
+ }
+ main {
+    margin-top: 62px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 48px 60px;
+ }
+ .card{
+    background: #202024;
+    border: 4px solid #323238;
+    border-radius: 10px;
+ }
+.card h2{
+    color: #e1e1e6;
+    font-weight: 900;
+    font-size: 36px;
+    padding: 24px 32px 0;
+ }
+ .card p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px 32px 32px;
+ }
